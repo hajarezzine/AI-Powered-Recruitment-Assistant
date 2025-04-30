@@ -65,38 +65,38 @@
 
 ### Setup Steps
 ```bash
-# 1. Clone repository
+1. Clone repository
 git clone https://github.com/SimranShaikh20/AI-Powered-Talent-Scout.git
 cd AI-Powered-Talent-Scout
 
-# 2. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt  # Includes:
-# streamlit==1.13.0
-# PyPDF2==2.11.1
-# smtplib (built-in)
+streamlit==1.13.0
+PyPDF2==2.11.1
+smtplib (built-in)
 
-# 3. Configure Gmail (one-time)
-# - Enable 2FA: https://myaccount.google.com/security
-# - Create App Password: https://myaccount.google.com/apppasswords
-# - Select "Mail" + "Other (Custom Name)"
+3. Configure Gmail (one-time)
+- Enable 2FA: https://myaccount.google.com/security
+- Create App Password: https://myaccount.google.com/apppasswords
+- Select "Mail" + "Other (Custom Name)"
 
-# 4. Run the app
+4. Run the app
 streamlit run app.py
 
-## 🔐 Gmail SMTP Configuration
+# 🔐 Gmail SMTP Configuration
 
 ```python
-# Critical Security Note: Never use your actual Gmail password!
-# Use App Password with 2-Step Verification enabled
+Critical Security Note: Never use your actual Gmail password!
+Use App Password with 2-Step Verification enabled
 
-# STEP 1: Enable 2-Step Verification
-# Visit: https://myaccount.google.com/security
+STEP 1: Enable 2-Step Verification
+Visit: https://myaccount.google.com/security
 
-# STEP 2: Generate App Password
-# Visit: https://myaccount.google.com/apppasswords
-# - Select App: Mail
-# - Select Device: "Streamlit App" (or any custom name)
-# - Copy the 16-character generated password
+STEP 2: Generate App Password
+Visit: https://myaccount.google.com/apppasswords
+- Select App: Mail
+- Select Device: "Streamlit App" (or any custom name)
+- Copy the 16-character generated password
 
 
 # 📂 Project Structure
