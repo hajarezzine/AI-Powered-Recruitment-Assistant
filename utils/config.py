@@ -5,7 +5,7 @@ import streamlit as st
 roles = {
     "Data Scientist": {
         "mandatory_skills": [
-            "python", "machine learning", "data analysis", "statistics",
+            "python", "machine learning", "data analysis",
             "pandas", "numpy"
         ],
         "skills": [
