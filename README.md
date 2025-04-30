@@ -119,6 +119,8 @@ Visit: https://myaccount.google.com/apppasswords
 ```
 AI-Powered-Recruitment-Assistant/
 ├── app.py                 # Main Streamlit application
+├── Documentation  
+|   ├── AI-Powered-Recruitment-Assistant(SRS).docx 
 ├── utils/
 │   ├── __init__.py        # Makes utils a Python package
 │   ├── config.py          # Job role configurations
