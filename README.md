@@ -73,7 +73,7 @@
 ### Setup Steps
 ```bash
 1. Clone repository
-git clone https://github.com/SimranShaikh20/AI-Powered-Talent-Scout.git
+git clone https://github.com/SimranShaikh20/AI-Powered-Recruitment-Assistant.git
 cd AI-Powered-Talent-Scout
 
 2. Install dependencies
@@ -95,9 +95,9 @@ streamlit run app.py
 
 ## 🔐 Gmail SMTP Configuration
 
-```python
-# Critical Security Note: Never use your actual Gmail password!
-# Use App Password with 2-Step Verification enabled
+
+ Critical Security Note: Never use your actual Gmail password!
+ Use App Password with 2-Step Verification enabled
 
 STEP 1: Enable 2-Step Verification
 Visit: https://myaccount.google.com/security
@@ -107,13 +107,13 @@ Visit: https://myaccount.google.com/apppasswords
 - Select App: Mail
 - Select Device: "Streamlit App" (or any custom name)
 - Copy the 16-character generated password
-```
+
 
 ---
 
 ## 📂 Project Structure
 ```
-resume-analyzer-interview-scheduler/
+AI-Powered-Recruitment-Assistant/
 ├── app.py                 # Main Streamlit application
 ├── utils/
 │   ├── __init__.py        # Makes utils a Python package
@@ -144,8 +144,8 @@ features = {
 ### 1. Fork the repository on GitHub
 ### 2. Clone locally
 ```bash
-git clone https://github.com/SimranShaikh20/AI-Powered-Talent-Scout.git
-cd AI-Powered-Talent-Scout
+git clone https://github.com/SimranShaikh20/AI-Powered-Recruitment-Assistant.git
+cd AI-Powered-Recruitment-Assistant
 ```
 
 ---
