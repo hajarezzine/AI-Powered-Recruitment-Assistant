@@ -10,6 +10,10 @@
 
 ---
 
+## 🔗 Application Link
+[Live ](https://ai-powered-recruitment-assistant-napxpg8qcggtua5pd5llcy.streamlit.app/)
+
+
 ## ✨ Key Features
 
 | Feature | Description |
