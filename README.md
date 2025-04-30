@@ -1,4 +1,4 @@
-# AI-Powered-Talent-Scout
+# 🤖 AI-Powered Recruitment Assistant
 
 ### 📄 Resume Analyzer + Interview Scheduler 🚀
 
