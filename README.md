@@ -1,4 +1,5 @@
 # AI-Powered-Talent-Scout
+
 ### 📄 Resume Analyzer + Interview Scheduler 🚀
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io)
@@ -6,6 +7,8 @@
 [![Jitsi](https://img.shields.io/badge/Jitsi-1A74E4?style=for-the-badge&logo=jitsi&logoColor=white)](https://jitsi.org)
 
 **Automated recruitment workflow** that analyzes resumes, evaluates candidates, and schedules interviews in one click! Powered by AI resume parsing and Jitsi video conferencing.
+
+---
 
 ## ✨ Key Features
 
@@ -16,6 +19,8 @@
 | ✏️ **Manual Scheduling** | Flexible option to manually schedule interviews |
 | 📧 **Email Automation** | Sends professional interview invites with all details |
 | 📊 **Skill Gap Analysis** | Highlights missing skills for rejected candidates |
+
+---
 
 ## 🛠️ Tech Stack Deep Dive
 
@@ -57,6 +62,8 @@
      Join: {Jitsi Link}
      ```
 
+---
+
 ## 🚀 Installation Guide
 
 ### Prerequisites
@@ -82,12 +89,15 @@ smtplib (built-in)
 
 4. Run the app
 streamlit run app.py
+```
 
-# 🔐 Gmail SMTP Configuration
+---
+
+## 🔐 Gmail SMTP Configuration
 
 ```python
-Critical Security Note: Never use your actual Gmail password!
-Use App Password with 2-Step Verification enabled
+# Critical Security Note: Never use your actual Gmail password!
+# Use App Password with 2-Step Verification enabled
 
 STEP 1: Enable 2-Step Verification
 Visit: https://myaccount.google.com/security
@@ -97,9 +107,12 @@ Visit: https://myaccount.google.com/apppasswords
 - Select App: Mail
 - Select Device: "Streamlit App" (or any custom name)
 - Copy the 16-character generated password
+```
 
+---
 
-# 📂 Project Structure
+## 📂 Project Structure
+```
 resume-analyzer-interview-scheduler/
 ├── app.py                 # Main Streamlit application
 ├── utils/
@@ -110,20 +123,60 @@ resume-analyzer-interview-scheduler/
 │   └── resume_parser.py   # PDF text extraction logic
 ├── requirements.txt       # pip dependencies
 └── README.md              # Project documentation
+```
 
-# 🌟 Why This Stands Out
+---
 
+## 🌟 Why This Stands Out
+```python
 features = {
     "time_saver": "⏳ Reduces hiring workflow from hours → minutes",
     "smart_matching": "🧠 Skill prioritization algorithm",
     "professional_ux": "💼 Clean Streamlit interface",
     "extensible": "🔌 Easy role/skill additions in config.py"
 }
+```
 
-# 🤝 Contributing Workflow
-# 1. Fork repo on GitHub
+---
 
-# 2. Clone locally:
+## 🤝 Contributing Workflow
+
+### 1. Fork the repository on GitHub
+### 2. Clone locally
+```bash
 git clone https://github.com/SimranShaikh20/AI-Powered-Talent-Scout.git
 cd AI-Powered-Talent-Scout
+```
 
+---
+
+## 🚀 Project Workflow (Mermaid Diagram)
+
+```mermaid
+graph TD
+    A[User Uploads Resume] --> B[Extract Text via PyPDF2]
+    B --> C[Match Skills Using Config]
+    C --> D{Candidate Qualifies?}
+    D -- Yes --> E[Generate Jitsi Link]
+    E --> F[Send Email with Details]
+    D -- No --> G[Highlight Missing Skills]
+```
+
+---
+
+## 📊 Why Streamlit + Jitsi?
+
+### Streamlit Benefits:
+- Interactive web UI with minimal code
+- Seamless local-to-cloud deployment
+- Ideal for rapid prototyping
+
+### Jitsi Benefits:
+- Open-source video conferencing
+- No sign-up required for candidates
+- Instant room generation with custom URLs
+
+---
+
+## 👤 Author
+Created by **Simran Shaikh** with ❤️
